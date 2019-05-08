@@ -16,63 +16,120 @@
         <a href="<?= base_url('auth'); ?>" class="btn btn-outline-dark">Login</a>
     </nav>
 
+		<section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">Seminar Aja</h1>
+      <p class="lead text-muted">Temukan seminar yang sesuai dengan minat Anda di sini.</p>
+      <p>
+        <a href="#" class="btn btn-primary my-2">Main call to action</a>
+        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+      </p>
+    </div>
+  </section>
+
     <div class="container">
         <div class="row">
-            <section class="card col-3 mx-auto mt-5 px-0" style="width: 18rem;">
-                <img src="<?= base_url('assets/img/template_poster2.jpg'); ?>" alt="img poster" class="card-img-top">
+        <div class="col-md-4">
+            <section class="card mb-4 shadow-sm" style="width: 18rem;">
+                <img src="<?= base_url('assets/img/template_poster2.jpg'); ?>" alt="img poster" class="bd-placeholder-img card-img-top">
                 <div class="card-body">
                     <!-- <h5 class="card-title">Judul Seminar</h5> -->
                     <a href="#" class="card-title text-decoration-none">Judul Seminar</a>
-                    <p class="card-text">Beberapa informasi</p>
+										<p class="card-text">Beberapa informasi</p>
+										<div class="d-flex justify-content-between align-item-center">
+											<div class="btn-group">
+												<a href="#" class="btn btn-sm btn-outline-secondary">Lihat Selengkapnya</a>
+											</div>
+											<small class="text-muted">9 mins</small>
+										</div>
                 </div>
             </section>
-
-            <section class="card col-3 mx-auto mt-5 px-0" style="width: 18rem;">
-                <img src="<?= base_url('assets/img/template_poster2.jpg'); ?>" alt="img poster" class="card-img-top">
+				</div>    
+				
+				<div class="col-md-4">
+            <section class="card mb-4 shadow-sm" style="width: 18rem;">
+                <img src="<?= base_url('assets/img/template_poster2.jpg'); ?>" alt="img poster" class="bd-placeholder-img card-img-top">
                 <div class="card-body">
                     <!-- <h5 class="card-title">Judul Seminar</h5> -->
                     <a href="#" class="card-title text-decoration-none">Judul Seminar</a>
-                    <p class="card-text">Beberapa informasi</p>
+										<p class="card-text">Beberapa informasi</p>
+										<div class="d-flex justify-content-between align-item-center">
+											<div class="btn-group">
+												<a href="#" class="btn btn-sm btn-outline-secondary">Lihat Selengkapnya</a>
+											</div>
+											<small class="text-muted">9 mins</small>
+										</div>
                 </div>
             </section>
-
-            <section class="card col-3 mx-auto mt-5 px-0" style="width: 18rem;">
-                <img src="<?= base_url('assets/img/template_poster2.jpg'); ?>" alt="img poster" class="card-img-top">
+				</div>    
+				
+				<div class="col-md-4">
+            <section class="card mb-4 shadow-sm" style="width: 18rem;">
+                <img src="<?= base_url('assets/img/template_poster2.jpg'); ?>" alt="img poster" class="bd-placeholder-img card-img-top">
                 <div class="card-body">
                     <!-- <h5 class="card-title">Judul Seminar</h5> -->
                     <a href="#" class="card-title text-decoration-none">Judul Seminar</a>
-                    <p class="card-text">Beberapa informasi</p>
+										<p class="card-text">Beberapa informasi</p>
+										<div class="d-flex justify-content-between align-item-center">
+											<div class="btn-group">
+												<a href="#" class="btn btn-sm btn-outline-secondary">Lihat Selengkapnya</a>
+											</div>
+											<small class="text-muted">9 mins</small>
+										</div>
                 </div>
             </section>
-        </div>
-
-        <div class="row">
-            <section class="card col-3 mx-auto mt-5 px-0" style="width: 18rem;">
-                <img src="<?= base_url('assets/img/template_poster2.jpg'); ?>" alt="img poster" class="card-img-top">
+				</div>    
+				
+				<div class="col-md-4">
+            <section class="card mb-4 shadow-sm" style="width: 18rem;">
+                <img src="<?= base_url('assets/img/template_poster2.jpg'); ?>" alt="img poster" class="bd-placeholder-img card-img-top">
                 <div class="card-body">
                     <!-- <h5 class="card-title">Judul Seminar</h5> -->
                     <a href="#" class="card-title text-decoration-none">Judul Seminar</a>
-                    <p class="card-text">Beberapa informasi</p>
+										<p class="card-text">Beberapa informasi</p>
+										<div class="d-flex justify-content-between align-item-center">
+											<div class="btn-group">
+												<a href="#" class="btn btn-sm btn-outline-secondary">Lihat Selengkapnya</a>
+											</div>
+											<small class="text-muted">9 mins</small>
+										</div>
                 </div>
             </section>
-
-            <section class="card col-3 mx-auto mt-5 px-0" style="width: 18rem;">
-                <img src="<?= base_url('assets/img/template_poster2.jpg'); ?>" alt="img poster" class="card-img-top">
+				</div>    
+				
+				<div class="col-md-4">
+            <section class="card mb-4 shadow-sm" style="width: 18rem;">
+                <img src="<?= base_url('assets/img/template_poster2.jpg'); ?>" alt="img poster" class="bd-placeholder-img card-img-top">
                 <div class="card-body">
                     <!-- <h5 class="card-title">Judul Seminar</h5> -->
                     <a href="#" class="card-title text-decoration-none">Judul Seminar</a>
-                    <p class="card-text">Beberapa informasi</p>
+										<p class="card-text">Beberapa informasi</p>
+										<div class="d-flex justify-content-between align-item-center">
+											<div class="btn-group">
+												<a href="#" class="btn btn-sm btn-outline-secondary">Lihat Selengkapnya</a>
+											</div>
+											<small class="text-muted">9 mins</small>
+										</div>
                 </div>
             </section>
-
-            <section class="card col-3 mx-auto mt-5 px-0" style="width: 18rem;">
-                <img src="<?= base_url('assets/img/template_poster2.jpg'); ?>" alt="img poster" class="card-img-top">
+				</div>    
+				
+				<div class="col-md-4">
+            <section class="card mb-4 shadow-sm" style="width: 18rem;">
+                <img src="<?= base_url('assets/img/template_poster2.jpg'); ?>" alt="img poster" class="bd-placeholder-img card-img-top">
                 <div class="card-body">
                     <!-- <h5 class="card-title">Judul Seminar</h5> -->
                     <a href="#" class="card-title text-decoration-none">Judul Seminar</a>
-                    <p class="card-text">Beberapa informasi</p>
+										<p class="card-text">Beberapa informasi</p>
+										<div class="d-flex justify-content-between align-item-center">
+											<div class="btn-group">
+												<a href="#" class="btn btn-sm btn-outline-secondary">Lihat Selengkapnya</a>
+											</div>
+											<small class="text-muted">9 mins</small>
+										</div>
                 </div>
             </section>
+        </div>    
         </div>
     </div>
 

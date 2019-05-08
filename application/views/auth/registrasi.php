@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Login</title>
+  <title>Registrasi</title>
 
   <!-- Custom fonts for this template-->
   <link href="<?= base_url('assets/vendor/fontawesome-free/css/all.min.css'); ?>" rel="stylesheet" type="text/css">
@@ -36,19 +36,33 @@
               <div class="col-lg">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Selamat Datang!</h1>
+                    <h1 class="h4 text-gray-900 mb-4">Registrasi</h1>
                   </div>
 
-                  <?= $this->session->flashdata('message'); ?>
-
-                  <form class="user" action="<?= base_url('auth/login'); ?>" method="post">
+                  <form class="user" action="<?= base_url('auth/input_registrasi'); ?>" method="post">
                     <div class="form-group">
                       <input type="text" class="form-control form-control-user" name="username" placeholder="Username">
                     </div>
                     <div class="form-group">
-                      <input type="password" class="form-control form-control-user" id="exampleInputPassword" name="password" placeholder="Password">
+                      <input type="text" class="form-control form-control-user" name="name" placeholder="Nama">
                     </div>
-                    <button type="submit" class="btn btn-primary btn-user btn-block">Login</button>
+                    <div class="form-group">
+                      <input type="email" class="form-control form-control-user" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control form-control-user" name="password" placeholder="Password">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">Daftar sebagai</label>
+                        <select id="inputState" class="form-control" name="level_akses">
+                            <option selected>Choose...</option>
+                            <option value="1">Admin</option>
+                            <option value="2">Penyelenggara Seminar</option>
+                            <option value="3">Peserta Seminar</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-user btn-block">Lanjut</button>
                   </form>
 
                   <hr>
