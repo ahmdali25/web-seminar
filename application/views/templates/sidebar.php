@@ -7,10 +7,18 @@
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Sistem Penilaian</div>
+        <div class="sidebar-brand-text mx-3">Dashboard</div>
       </a>
 
       <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('home'); ?>">
+          <i class="fas fa-home"></i>
+          <span><?= "Home" ?></span></a>
+      </li>
+
       <hr class="sidebar-divider">
 
       <!-- Nav Item - Dashboard -->

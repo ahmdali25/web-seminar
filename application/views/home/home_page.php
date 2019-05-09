@@ -11,10 +11,18 @@
     <title>Hello, world!</title>
   </head>
   <body>
+
+    <?php if($this->session->userdata('login') == 0): ?>
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="<?= base_url('home'); ?>">Beranda</a>
         <a href="<?= base_url('auth'); ?>" class="btn btn-outline-dark">Login</a>
     </nav>
+    <?php else: ?>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="<?= base_url('home'); ?>">Beranda</a>
+        <a href="<?= base_url('dashboard'); ?>" class="text-decoration-none"><?= $this->session->userdata('nama'); ?></a>
+    </nav>
+    <?php endif; ?>
 
 		<section class="jumbotron text-center">
     <div class="container">

@@ -9,8 +9,6 @@ class Auth_model extends CI_Model {
 
         $result = $this->db->query($query)->row_array();
 
-        print_r($result);
-
         if($result)
         {
             if($result['aktif'] == 1)
@@ -20,7 +18,8 @@ class Auth_model extends CI_Model {
                     $user = [
                         'nama'        => $result['nama'],
                         'username'    => $data['username'],
-                        'level_akses' => $data['level_akses']
+                        'level_akses' => $data['level_akses'],
+                        'login'       => 1
                     ];
                     $this->session->set_userdata($user);
                     redirect('home');
@@ -49,6 +48,7 @@ class Auth_model extends CI_Model {
         $this->session->unset_userdata('nama');
         $this->session->unset_userdata('username');
         $this->session->unset_userdata('level_akses');
+        $this->session->unset_userdata('login');
 
         $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Logout sukses</div>');
         redirect('auth');
@@ -86,9 +86,9 @@ class Auth_model extends CI_Model {
                   (username, password, email, nama, level_akses)
                   VALUES(" . "'" 
                             . $data['username'] . "', '"
-                            . $data['name'] . "', '"
+                            . $data['password'] . "', '"
                             . $data['email'] . "', '"
-                            . $data['password'] . "', "
+                            . $data['nama'] . "', "
                             . $data['level_akses'] . ")";
 
         $this->db->query($query);
