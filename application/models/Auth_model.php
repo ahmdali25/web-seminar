@@ -51,7 +51,7 @@ class Auth_model extends CI_Model {
         $this->session->unset_userdata('login');
 
         $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Logout sukses</div>');
-        redirect('auth');
+        redirect('home');
     }
 
     public function cari_user($username)
