@@ -66,11 +66,11 @@
                   </form>
 
                   <hr>
-                  <div class="text-center">
+                  <div class="text-center text-decoration-none">
                     <a class="small" href="<?= base_url('auth/lupa_password'); ?>">Lupa Password?</a>
                   </div>
                   <div class="text-center">
-                    <a class="small" href="<?= base_url('auth/registrasi'); ?>">Buat Akun!</a>
+                    <a class="small" href="<?= base_url('auth'); ?>">Sudah Punya Akun? Login Sekarang</a>
                   </div>
                 </div>
               </div>
