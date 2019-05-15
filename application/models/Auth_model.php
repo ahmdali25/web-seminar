@@ -88,7 +88,7 @@ class Auth_model extends CI_Model {
                             . $data['username'] . "', '"
                             . $data['password'] . "', '"
                             . $data['email'] . "', '"
-                            . $data['nama'] . "', "
+                            . $data['name'] . "', "
                             . $data['level_akses'] . ")";
 
         $this->db->query($query);
